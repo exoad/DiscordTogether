@@ -30,6 +30,13 @@ const token = require("./json/token.json");
 const assets = require("./json/assets.json");
 const { DiscordTogether } = require("discord-together");
 const { MessageButton, MessageActionRow } = require("discord-buttons");
+const express = require("express");
+const app = express();
+const port = 3000;
+app.get("/", (req, res) => res.send("Request"));
+
+app.listen(port, () => console.log(`Listening on ${port}\nhttp://localhost:${port}`));
+
 require("discord-buttons")(bot);
 
 let ytButton = new MessageButton()
