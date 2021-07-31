@@ -1,4 +1,4 @@
-# DiscordTogether Bot
+# Lorius
 
 This is a simple Discord bot that will aim to enable the Discord Together feature :)
 
