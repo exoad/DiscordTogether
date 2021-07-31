@@ -1,0 +1,17 @@
+{
+  "name": "discordtogether",
+  "version": "1.0.0",
+  "description": "A Discord Together Discord Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "exoad",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
