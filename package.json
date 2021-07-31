@@ -12,6 +12,7 @@
   "author": "exoad",
   "license": "MIT",
   "dependencies": {
+    "discord-buttons": "^4.0.0",
     "discord-together": "^1.1.53",
     "discord.js": "^12.5.3"
   }
