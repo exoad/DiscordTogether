@@ -167,5 +167,5 @@ bot.on("message", async (message) => {
     console.error(e);
   }
 });
-
+//login as the bot using the provided token
 bot.login(token.t);
