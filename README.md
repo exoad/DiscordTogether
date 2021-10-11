@@ -22,3 +22,6 @@ this will install the necessary dependencies for the bot.
 After that, go to the file: [token.json](./src/token.json). Replace `$[t.json[1]]$` with a bot token from Discord Developer Portal.
 
 Then type `node .`! :D
+
+
+> Have any issues? Post them in the issues tab!
